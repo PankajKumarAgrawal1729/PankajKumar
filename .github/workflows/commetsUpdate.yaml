@@ -23,7 +23,7 @@ jobs:
         run: |
           readme=$(cat README.md)
           table="\n| Commit Author | Message | Date |\n| --- | --- | --- |\n"
-          commits_json='${{ steps.get_commits.outputs.commits }}'
+          commits_json="${{ steps.get_commits.outputs.commits }}"
           commits=$(echo "$commits_json" | jq -r '.[] | "\(.commit.author.name), \(.commit.message), \(.commit.author.date)"')
           IFS=$'\n'
           for commit in $commits; do
