@@ -24,10 +24,10 @@ jobs:
           readme=$(cat README.md)
           table="\n| Commit Author | Message | Date |\n| --- | --- | --- |\n"
           commits_json="${{ steps.get_commits.outputs.commits }}"
-          commits=$(echo "$commits_json" | jq -r '.[] | "\(.commit.author.name), \(.commit.message), \(.commit.author.date)"')
+          commits=$(echo "$commits_json" | jq -r '.[] | "\(.commit.author.name) | \(.commit.message) | \(.commit.committer.date)"')
           IFS=$'\n'
           for commit in $commits; do
-            IFS=',' read -r author message date <<< "$commit"
+            IFS='|' read -r author message date <<< "$commit"
             table+="$author | $message | $date\n"
           done
           echo -e "${readme/table_start\n*table_end/table_start$tabletable_end}" > README.md
