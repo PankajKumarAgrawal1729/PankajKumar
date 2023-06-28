@@ -7,35 +7,58 @@ on:
 
 jobs:
   update_readme:
+    name: Update README
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-
+      
       - name: Get last 5 commits
-        id: get_commits
-        run: |
-          COMMITS=$(curl -s -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/${GITHUB_REPOSITORY}/commits?per_page=5)
-          echo "::set-output name=commits::$COMMITS"
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const query = `query($owner:String!, $name:String!) {
+              repository(owner:$owner, name:$name){
+                refs(refPrefix: "refs/heads/", first:1, orderBy:{field: TAG_COMMIT_DATE, direction:DESC}) {
+                  nodes {
+                    target {
+                      ... on Commit {
+                        history(first: 5) {
+                          nodes {
+                            author {
+                              avatarUrl(size: 24)
+                              name
+                              email
+                              date
+                            }
+                            message
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }`;
+            const variables = {
+              owner: context.repo.owner,
+              name: context.repo.repo,
+            }
 
-      - name: Update README
-        run: |
-          readme=$(cat README.md)
-          table="\n| Commit Author | Message | Date |\n| --- | --- | --- |\n"
-          commits_json="${{ steps.get_commits.outputs.commits }}"
-          commits=$(echo "$commits_json" | jq -r '.[] | "\(.commit.author.name), \(.commit.message), \(.commit.committer.date)"')
-          IFS=$'\n'
-          for commit in $commits; do
-            IFS=',' read -r author message date <<< "$commit"
-            table+="$author | $message | $date\n"
-          done
-          echo -e "${readme/table_start\n*table_end/table_start$tabletable_end}" > README.md
-
-      - name: Push changes
+            const result = await github.graphql(query, variables)
+            const renderCommits = (commits) => {
+              return commits.reduce((prev, curr) => {
+                return `${prev}| <img width="24" src="${curr.author.avatarUrl}" alt="${curr.author.name}" /> ${curr.author.name} |${new Date(curr.author.date).toLocaleString()}|${curr.message}|\n`;
+              }, "| Author | Date | Message |\n|---|---|---|\n");
+            };
+            const fileSystem = require('fs');
+            const readme = fileSystem.readFileSync('README.md', 'utf8');
+            fileSystem.writeFileSync('README.md', readme.replace(/(?<=<!-- Commits -->.*\n)[\S\s]*?(?=<!-- \/Commits -->|$(?![\n]))/gm, renderCommits(result.repository.refs.nodes[0].target.history.nodes)), 'utf8');
+      
+      - name: Push README update
         run: |
           git config --global user.name 'Github Actions'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git commit -m ':books: update commit history'
+          git commit -am ':books: update commit history'
           git push
