@@ -64,4 +64,4 @@ jobs:
             git commit -m ':books: update commit history'
             git push
         env:
-          GH_PAT: ${{ secrets.commit_pg }}
+          GH_PAT: ${{ secrets.COMMIT_PG }}
