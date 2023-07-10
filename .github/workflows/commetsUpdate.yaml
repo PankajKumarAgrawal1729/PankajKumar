@@ -1,9 +1,16 @@
 name: Update README
 
 on:
-  push:
-    branches:
-      - main  # change to the branch you want to monitor
+  workflow_dispatch:
+    inputs:
+      owner:
+        description: 'Owner of the repository'
+        required: true
+      repository:
+        description: 'Repository name'
+        required: true
+  schedule:
+    - cron: '0 0 * * *'  # this updates the README.md file every day at 00:00
 
 jobs:
   update_readme:
@@ -13,7 +20,7 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-      
+
       - name: Get last 5 commits
         uses: actions/github-script@v6
         with:
@@ -42,10 +49,9 @@ jobs:
               }
             }`;
             const variables = {
-              owner: context.repo.owner,
-              name: context.repo.repo,
+              owner: "${{ github.event.inputs.owner }}",
+              name: "${{ github.event.inputs.repository }}",
             }
-
             const result = await github.graphql(query, variables)
             const renderCommits = (commits) => {
               return commits.reduce((prev, curr) => {
@@ -55,11 +61,11 @@ jobs:
             const fileSystem = require('fs');
             const readme = fileSystem.readFileSync('README.md', 'utf8');
             fileSystem.writeFileSync('README.md', readme.replace(/(?<=<!-- Commits -->.*\n)[\S\s]*?(?=<!-- \/Commits -->|$(?![\n]))/gm, renderCommits(result.repository.refs.nodes[0].target.history.nodes)), 'utf8');
-      
+
       - name: Push README update
         run: |
           git config --global user.name 'Github Actions'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -am ':sparkles: update commit history'
+          git add README.md
+          git commit -m ':sparkles: update commit history'
           git push
-
