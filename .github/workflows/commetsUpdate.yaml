@@ -3,10 +3,9 @@ name: Update README
 on:
   repository_dispatch:
     types: [new_commit]
-
-# on:
-#   schedule:
-#     - cron: '0 0 * * *'  # this updates the README.md file every day at 00:00
+  schedule:
+    - cron: '0 0 * * *'  # this updates the README.md file every day at 00:00
+  
 
 jobs:
   update_readme:
