@@ -5,7 +5,6 @@ on:
     types: [new_commit]
   schedule:
     - cron: '0 0 * * *'  # this updates the README.md file every day at 00:00
-  
 
 jobs:
   update_readme:
@@ -16,69 +15,51 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
       
-      - name: Get the latest commit from all repos
+      - name: Get last 5 commits
         uses: actions/github-script@v6
         with:
           script: |
-            const query = `
-              query($login:String!) {
-                user(login:$login) {
-                  repositories(first: 100, privacy: PUBLIC) {
-                    nodes {
-                      name
-                      refs(refPrefix: "refs/heads/", first: 1, orderBy:{field: TAG_COMMIT_DATE, direction: DESC}) {
-                        nodes {
-                          target {
-                            ... on Commit {
-                              history(first: 1) {
-                                nodes {
-                                  author {
-                                    avatarUrl(size: 24)
-                                    name
-                                    email
-                                    date
-                                  }
-                                  message
-                                }
-                              }
+            const query = `query($owner:String!, $name:String!) {
+              repository(owner:$owner, name:$name){
+                refs(refPrefix: "refs/heads/", first:1, orderBy:{field: TAG_COMMIT_DATE, direction:DESC}) {
+                  nodes {
+                    target {
+                      ... on Commit {
+                        history(first: 5) {
+                          nodes {
+                            author {
+                              avatarUrl(size: 24)
+                              name
+                              email
+                              date
                             }
+                            message
                           }
                         }
                       }
                     }
                   }
                 }
-              }`;
-
+              }
+            }`;
             const variables = {
-              login: "${{ github.repository_owner }}",
+              owner: context.repo.owner,
+              name: context.repo.repo,
             }
 
             const result = await github.graphql(query, variables)
-
-            let commits = [];
-            for (const repo of result.user.repositories.nodes) {
-              if (repo.refs.nodes.length > 0) {
-                commits.push({
-                  repository: repo.name,
-                  commit: repo.refs.nodes[0].target.history.nodes[0]
-                });
-              }
-            }
-
             const renderCommits = (commits) => {
               return commits.reduce((prev, curr) => {
-                return `${prev}| <img width="24" src="${curr.commit.author.avatarUrl}" alt="${curr.commit.author.name}" /> ${curr.commit.author.name} |${new Date(curr.commit.author.date).toLocaleString()}|${curr.repository}|${curr.commit.message}|\n`;
-              }, "| Author | Date | Repository | Message |\n|---|---|---|---|\n");
+                return `${prev}| <img width="24" src="${curr.author.avatarUrl}" alt="${curr.author.name}" /> ${curr.author.name} |${new Date(curr.author.date).toLocaleString()}|${curr.message}|\n`;
+              }, "| Author | Date | Message |\n|---|---|---|\n");
             };
             const fileSystem = require('fs');
             const readme = fileSystem.readFileSync('README.md', 'utf8');
-            fileSystem.writeFileSync('README.md', readme.replace(/(?<=<!-- Commits -->.*\n)[\S\s]*?(?=<!-- \/Commits -->|$(?![\n]))/gm, renderCommits(commits)), 'utf8');
+            fileSystem.writeFileSync('README.md', readme.replace(/(?<=<!-- Commits -->.*\n)[\S\s]*?(?=<!-- \/Commits -->|$(?![\n]))/gm, renderCommits(result.repository.refs.nodes[0].target.history.nodes)), 'utf8');
       
       - name: Push README update
         run: |
           git config --global user.name 'Github Actions'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git commit -m ':sparkles: update commit history'
+          git commit -am ':sparkles: update commit history'
           git push
