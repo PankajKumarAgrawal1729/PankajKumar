@@ -37,7 +37,7 @@ Stay connected to get a glimpse of my ever-evolving tech journey! Happy coding! 
 
 
 
-                                              🎉 Github latest commits 🎉
+                                            🎉 Github latest commits 🎉
 <!-- Commits -->
 | Author | Date | Repository | Message |
 |---|---|---|---|
