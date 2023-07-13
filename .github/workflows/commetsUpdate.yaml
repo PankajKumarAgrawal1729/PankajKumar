@@ -1,6 +1,8 @@
 name: Update README
 
 on:
+  push:
+  workflow_dispatch:
   repository_dispatch:
     types: [new_commit]
   schedule:
