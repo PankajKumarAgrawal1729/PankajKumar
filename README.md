@@ -41,14 +41,9 @@ Stay connected to get a glimpse of my ever-evolving tech journey! Happy coding! 
 <!-- Commits -->
 | Author | Date | Repository | Message |
 |---|---|---|---|
-| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |10/15/2023, 12:54:33 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
-| <img width="24" src="https://avatars.githubusercontent.com/u/675065?s=24&v=4" alt="Matti Nannt" /> Matti Nannt |10/14/2023, 5:51:32 PM|formbricks|fix: build issues in environment service on some systems (#1160)|
-| <img width="24" src="https://avatars.githubusercontent.com/u/60646682?s=24&v=4" alt="Arya Bhosale" /> Arya Bhosale |10/14/2023, 4:51:05 PM|formbricks| fix: Automate copyright year (#1136)
-
-Signed-off-by: aryabyte21 <arya2001bhosale@gmail.com>
-Co-authored-by: Johannes <72809645+jobenjada@users.noreply.github.com>|
-| <img width="24" src="https://avatars.githubusercontent.com/u/675065?s=24&v=4" alt="Matti Nannt" /> Matti Nannt |10/14/2023, 4:38:49 PM|formbricks|chore: improve logging in survey service (#1156)|
-| <img width="24" src="https://avatars.githubusercontent.com/u/129506339?s=24&v=4" alt="Akash Sharan" /> Akash Sharan |10/14/2023, 4:18:55 PM|formbricks|fix/Typo-main-page (#1146)
-
-Co-authored-by: Johannes <72809645+jobenjada@users.noreply.github.com>|
+| <img width="24" src="https://camo.githubusercontent.com/0e791e682d7b420f6c32a58d3f121aa61bf0f962701bbd003539634e931100b2/68747470733a2f2f302e67726176617461722e636f6d2f6176617461722f31326165363339306133333937333861376666626538343437613733643437333f643d68747470732533412532462532466769746875622e6769746875626173736574732e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d3234" alt="Pankaj Kumar" /> Pankaj Kumar |10/16/2023, 7:29:54 AM|Java-Project|Quiz Console Project Added|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |10/16/2023, 5:10:52 AM|JDBC-Projects|Create README.md|
+| <img width="24" src="https://camo.githubusercontent.com/0e791e682d7b420f6c32a58d3f121aa61bf0f962701bbd003539634e931100b2/68747470733a2f2f302e67726176617461722e636f6d2f6176617461722f31326165363339306133333937333861376666626538343437613733643437333f643d68747470732533412532462532466769746875622e6769746875626173736574732e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d3234" alt="Pankaj Kumar" /> Pankaj Kumar |10/16/2023, 5:07:19 AM|Servlet-Learning-using-Projects|Blog Project added|
+| <img width="24" src="https://camo.githubusercontent.com/0e791e682d7b420f6c32a58d3f121aa61bf0f962701bbd003539634e931100b2/68747470733a2f2f302e67726176617461722e636f6d2f6176617461722f31326165363339306133333937333861376666626538343437613733643437333f643d68747470732533412532462532466769746875622e6769746875626173736574732e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d3234" alt="Pankaj Kumar" /> Pankaj Kumar |10/16/2023, 5:04:18 AM|JDBC-Projects|Cricket ScoreBoard Project|
+| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |10/16/2023, 12:51:55 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 <!-- /Commits -->
