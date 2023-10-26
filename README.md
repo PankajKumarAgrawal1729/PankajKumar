@@ -16,6 +16,8 @@ Stay connected to get a glimpse of my ever-evolving tech journey! Happy coding! 
 - :e-mail: pankajagrawal13579@gmail.com
 <hr></hr>
 
+[![An image of @pankajkumaragrawal1729's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/pankajkumaragrawal1729)](https://holopin.io/@pankajkumaragrawal1729)
+
 <hr></hr>
   Profile on Coding Platforms:
 <br></br>
