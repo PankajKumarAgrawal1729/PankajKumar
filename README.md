@@ -43,9 +43,52 @@ Stay connected to get a glimpse of my ever-evolving tech journey! Happy coding! 
 <!-- Commits -->
 | Author | Date | Repository | Message |
 |---|---|---|---|
+| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |11/2/2023, 12:50:53 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 | <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |11/1/2023, 12:54:10 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
+| <img width="24" src="https://avatars.githubusercontent.com/u/91151201?s=24&v=4" alt="Prathamesh Powar" /> Prathamesh Powar |10/31/2023, 8:07:59 AM|Java|Cleanup `BoyerMoore` (#4951)
+
+* modify code to make use of java Optional class
+
+* revert changes
+
+* add java.util.Optional<Integer>
+
+* add java.util.Optional
+
+* refactors: make `findmajor` return `optional`
+
+* refactors: make method name findMajor and split it
+
+* refactors: change method name in tests
+
+* Apply suggestions from code review
+
+Co-authored-by: Piotr Idzik <65706193+vil02@users.noreply.github.com>
+
+* change back to int
+
+* fix: swap arguments
+
+* tests: add some test cases
+
+* refactor: add `isMajority` and avoid rounding
+
+* style: use `var`
+
+* style: swap arguments of `countOccurrences`
+
+---------
+
+Co-authored-by: vil02 <vil02@o2.pl>
+Co-authored-by: Piotr Idzik <65706193+vil02@users.noreply.github.com>|
 | <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |10/31/2023, 12:51:18 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
-| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |10/30/2023, 12:51:20 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
-| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |10/29/2023, 12:53:49 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
-| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |10/28/2023, 12:48:49 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
+| <img width="24" src="https://avatars.githubusercontent.com/u/97388607?s=24&v=4" alt="Hardik Pawar" /> Hardik Pawar |10/30/2023, 10:18:05 PM|Java|Enhance code density and readability (#4914)
+
+* Enhance code density and readability
+
+* Add wiki link
+
+---------
+
+Co-authored-by: vil02 <65706193+vil02@users.noreply.github.com>|
 <!-- /Commits -->
