@@ -43,11 +43,11 @@ Stay connected to get a glimpse of my ever-evolving tech journey! Happy coding! 
 <!-- Commits -->
 | Author | Date | Repository | Message |
 |---|---|---|---|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |12/25/2023, 12:47:16 PM|Complete-Javascript|JS Object concepts|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |12/25/2023, 12:05:13 PM|Complete-Javascript|JS Array Concept|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |12/25/2023, 7:00:47 AM|Complete-Javascript|Some Important Concepts|
+| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |12/25/2023, 12:54:07 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 | <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |12/24/2023, 6:53:31 AM|Complete-Javascript|Date and TIme concept in JS|
-| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |12/24/2023, 6:17:20 AM|Complete-Javascript|Number and Math Concept|
-| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |12/24/2023, 5:58:56 AM|Complete-Javascript|JS Strings concept|
-| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |12/24/2023, 12:56:30 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
-| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |12/23/2023, 12:50:57 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 
 
 * revert changes
