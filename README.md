@@ -43,11 +43,11 @@ Stay connected to get a glimpse of my ever-evolving tech journey! Happy coding! 
 <!-- Commits -->
 | Author | Date | Repository | Message |
 |---|---|---|---|
+| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |12/29/2023, 12:42:34 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 | <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |12/28/2023, 12:51:35 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 | <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |12/27/2023, 12:51:53 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 | <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |12/26/2023, 6:42:07 PM|Complete-Javascript|Functions Concept introduce|
 | <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |12/26/2023, 12:51:46 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
-| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |12/25/2023, 12:47:16 PM|Complete-Javascript|JS Object concepts|
 
 
 * revert changes
