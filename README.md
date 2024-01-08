@@ -43,11 +43,11 @@ Stay connected to get a glimpse of my ever-evolving tech journey! Happy coding! 
 <!-- Commits -->
 | Author | Date | Repository | Message |
 |---|---|---|---|
+| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |1/7/2024, 12:58:37 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 | <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |1/6/2024, 12:52:55 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 | <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |1/5/2024, 12:53:56 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 | <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |1/4/2024, 12:53:43 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 | <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |1/3/2024, 12:53:35 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
-| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |1/2/2024, 12:52:27 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
 
 
 * revert changes
