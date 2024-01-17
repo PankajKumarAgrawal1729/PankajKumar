@@ -43,11 +43,11 @@ Stay connected to get a glimpse of my ever-evolving tech journey! Happy coding! 
 <!-- Commits -->
 | Author | Date | Repository | Message |
 |---|---|---|---|
-| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/15/2024, 12:09:57 PM|Complete-Javascript|JS Async Concept with projects|
-| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/15/2024, 6:16:33 AM|Complete-Javascript|Events in JS|
-| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |1/15/2024, 12:56:49 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
-| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/14/2024, 5:44:06 PM|Complete-Javascript|add some more interesting logic|
-| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/14/2024, 5:29:29 PM|Complete-Javascript|Guess the number game project|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/16/2024, 6:06:41 PM|Complete-Javascript|OOPS Basics|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/16/2024, 4:25:19 PM|Complete-Javascript|Promise Concept in JS|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/16/2024, 3:03:22 PM|Complete-Javascript|Api Request in JS|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/16/2024, 11:44:15 AM|shadcn-with-nextjs|Shadcn using nextJS|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/16/2024, 10:40:37 AM|shadcn-with-nextjs|Create README.md|
 
 
 * revert changes
