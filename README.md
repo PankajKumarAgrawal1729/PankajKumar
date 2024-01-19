@@ -43,11 +43,11 @@ Stay connected to get a glimpse of my ever-evolving tech journey! Happy coding! 
 <!-- Commits -->
 | Author | Date | Repository | Message |
 |---|---|---|---|
-| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/17/2024, 11:26:15 AM|Complete-Javascript|Update notes.md|
-| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/17/2024, 11:23:14 AM|Complete-Javascript|notes added|
-| <img width="24" src="https://avatars.githubusercontent.com/in/15368?s=24&v=4" alt="Github Actions" /> Github Actions |1/17/2024, 12:55:06 AM|PankajKumarAgrawal1729|:sparkles: update commit history|
-| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/16/2024, 6:06:41 PM|Complete-Javascript|OOPS Basics|
-| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/16/2024, 4:25:19 PM|Complete-Javascript|Promise Concept in JS|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/18/2024, 6:24:03 PM|Complete-Javascript|Lexical scope and Closure in JS|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/18/2024, 5:59:36 PM|Complete-Javascript|Object Oriented concepts in JS|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/18/2024, 4:12:58 PM|Complete-Javascript|Call and this in JS|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/18/2024, 12:22:34 PM|Complete-Javascript|Prototype in JS|
+| <img width="24" src="https://avatars.githubusercontent.com/u/52162601?s=24&v=4" alt="Pankaj Kumar" /> Pankaj Kumar |1/18/2024, 2:31:01 AM|Complete-Javascript|Objects in JS|
 
 
 * revert changes
