@@ -10,7 +10,7 @@ Stay connected to get a glimpse of my ever-evolving tech journey! Happy coding! 
 
 <hr></hr>
 📫 How to reach me:
-      <a href="https://github.com/PankajKumarAgrawal1729"><img src="https://github.com/PankajKumarAgrawal1729/PankajKumar/blob/main/images/github.png" alt="Github" data-canonical-src="https://img.shields.io/badge/-Github-000?style=flat&amp;logo=Github&amp;logoColor=white" style="max-width:100%;"></a>
+      <a href="https://github.com/PankajKumarAgrawal1729"><img src="https://github.com/PankajKumarAgrawal1729/PankajKumar/blob/main/images/github.png" alt="Github" data-canonical-src="https://img.shields.io/badge/-Github-000?style=flat&amp;logo=Github&amp;logoColor=white" style="width:80px; height:25px;"></a>
       <a href="https://www.linkedin.com/in/pankaj-kumar-0322/" rel="nofollow"><img src="https://github.com/PankajKumarAgrawal1729/PankajKumar/blob/main/images/linkedin.jpg" alt="Linkedin" data-canonical-src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&amp;logo=Linkedin&amp;logoColor=white" style="max-width:100%;"></a> 
       
 - :e-mail: pankajagrawal13579@gmail.com
@@ -22,8 +22,8 @@ Stay connected to get a glimpse of my ever-evolving tech journey! Happy coding! 
   Profile on Coding Platforms:
 <br></br>
 <p align="center">
-<a href="https://leetcode.com/Pankaj_S_Kumar/" rel="nofollow"><img src="https://github.com/PankajKumarAgrawal1729/PankajKumar/blob/main/images/LeetCode.png" alt="LeetCode" data-canonical-src="https://img.shields.io/badge/-LeetCode-ff8c00?style=flat&amp;labelColor=ff8c00&amp;logo=LeetCode&amp;logoColor=white" style="max-width:100%;"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.hackerrank.com/pankajagrawal131?hr_r=1" rel="nofollow"><img src="https://github.com/PankajKumarAgrawal1729/PankajKumar/blob/main/images/hackerrank.jpeg" alt="Hackerrank" data-canonical-src="https://img.shields.io/badge/-hackerrank-7cfc00?style=flat&amp;labelColor=7cfc00&amp;logo=hackerrank&amp;logoColor=white" style="max-width:100%;"></a>
+<a href="https://leetcode.com/Pankaj_S_Kumar/" rel="nofollow"><img src="https://github.com/PankajKumarAgrawal1729/PankajKumar/blob/main/images/LeetCode.png" alt="LeetCode" data-canonical-src="https://img.shields.io/badge/-LeetCode-ff8c00?style=flat&amp;labelColor=ff8c00&amp;logo=LeetCode&amp;logoColor=white" style="width:120px; height:60px;"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.hackerrank.com/pankajagrawal131?hr_r=1" rel="nofollow"><img src="https://github.com/PankajKumarAgrawal1729/PankajKumar/blob/main/images/hackerrank.jpeg" alt="Hackerrank" data-canonical-src="https://img.shields.io/badge/-hackerrank-7cfc00?style=flat&amp;labelColor=7cfc00&amp;logo=hackerrank&amp;logoColor=white" style="width:120px; height:60px;"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.codingninjas.com/studio/profile/53c84677-a12b-4cda-9a13-b84c0d5fb9b8" rel="nofollow"><img src="https://github.com/PankajKumarAgrawal1729/PankajKumar/blob/main/images/codingninjas.png" alt="Coding Ninjas" data-canonical-src="https://img.shields.io/badge/coding_ninjas-orange" style="max-width:100%;"></a>
       </p>
 <hr></hr>
