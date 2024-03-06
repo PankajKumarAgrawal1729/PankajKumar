@@ -17,6 +17,11 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
 
+      - name: Configure Git
+        run: |
+          git config --global user.name 'Github Actions'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
       - name: Get last 5 commits
         uses: actions/github-script@v6
         with:
